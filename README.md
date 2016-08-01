@@ -1,0 +1,4 @@
+# LDStoryboardReference
+
+XCode7实现了Storyboard协作的Storyboard Reference，但只能在iOS9以上提供支持。
+LDStoryboardReference目标是实现一套简单的Storyboard Reference，暂时只支持LDStoryboardPushSegue和LDStoryboardModalSegue。
