@@ -15,13 +15,17 @@ FirstViewController *vc = [LDStoryboardReference viewControllerForStoryboardName
 ####使用Storyboard的教程
 
 1.首先拖一个ViewController,将它的类改为`LDStoryboardReference`。把它的View删掉，因为我们只是作为一个引用并不需要它自身的View；
+
 ![image](https://github.com/xlDon/LDStoryboardReference/raw/master/TutorialImage/referenceVC.png)
 
 2.标明它的storyboardName以及sceneIdentifier.
+
 ![image](https://github.com/xlDon/LDStoryboardReference/raw/master/TutorialImage/setting.png)
 
 sceneIdentifier就是在另一个被引用storyboard的Storyboard ID如下图。
+
 ![image](https://github.com/xlDon/LDStoryboardReference/raw/master/TutorialImage/citedVC.png)
 
 3.然后就是拖拽segue的时候要选择`storyboard modal` 或者 `storyboard push`.
+
 ![image](https://github.com/xlDon/LDStoryboardReference/raw/master/TutorialImage/segue.png)
